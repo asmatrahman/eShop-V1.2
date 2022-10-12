@@ -1,0 +1,137 @@
+<%-  include ./partials/header %>
+      <!-- slider section -->
+      <section class="slider_section ">
+         <div class="slider_bg_box">
+            <img src="img/banner.jpg" alt="">
+         </div>
+         <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container ">
+                     <div class="row">
+                        <div class="col-md-7 col-lg-6 ">
+                           <div class="detail-box">
+                              <h1>
+                                 <span>
+                                    Sale 10% Off
+                                 </span>
+                                 <br>
+                                 On Mobile & Laptop
+                              </h1>
+                              <p>
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam porro sed vero
+                                 sapiente? Ea, magnam. Itaque eaque beatae aliquid quaerat expedita a ipsam modi enim.
+                              </p>
+                              <div class="btn-box">
+                                 <a href="" class="btn1">
+                                    Shop Now
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item ">
+                  <div class="container ">
+                     <div class="row">
+                        <div class="col-md-7 col-lg-6 ">
+                           <div class="detail-box">
+                              <h1>
+                                 <span>
+                                    Sale 40% Off
+                                 </span>
+                                 <br>
+                                 On Mobile
+                              </h1>
+                              <p>
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aperiam molestiae
+                                 minus cumque deleniti quia ipsa. Optio laudantium provident minima inventore aliquid
+                                 dignissimos sapiente excepturi.
+                              </p>
+                              <div class="btn-box">
+                                 <a href="" class="btn1">
+                                    Shop Now
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container ">
+                     <div class="row">
+                        <div class="col-md-7 col-lg-6 ">
+                           <div class="detail-box">
+                              <h1>
+                                 <span>
+                                    Sale 10% Off
+                                 </span>
+                                 <br>
+                                 On Laptop
+                              </h1>
+                              <p>
+                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non porro ad pariatur, neque
+                                 est culpa sit ab officia nisi quaerat aliquam sunt velit maxime accusamus.
+                              </p>
+                              <div class="btn-box">
+                                 <a href="" class="btn1">
+                                    Shop Now
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <ol class="carousel-indicators">
+                  <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+                  <li data-target="#customCarousel1" data-slide-to="1"></li>
+                  <li data-target="#customCarousel1" data-slide-to="2"></li>
+               </ol>
+            </div>
+         </div>
+      </section>
+      <!-- end slider section -->
+   </div>
+   <!-- product section -->
+   <section class="product_section layout_padding">
+      <div class="container">
+         <div class="heading_container heading_center">
+            <h2>
+               Our <span>Products</span>
+            </h2>
+         </div>
+         <div class="row">
+            <% for(let product of productdata) { %>
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="box">
+                     <div class="option_container">
+                        <div class="options">
+                           <a href="" class="option1">
+                           <%- product.proName %>
+                           </a>
+                           <a href="" class="option2">
+                              Buy Now
+                           </a>
+                        </div>
+                     </div>
+                     <div class="img-box">
+                        <img src="<%= product.imgurl %>" alt="">
+                     </div>
+                     <div class="detail-box">
+                        <h5>
+                           <%- product.proName %>
+                        </h5>
+                        <h6>
+                           <%= product.price %>
+                        </h6>
+                     </div>
+                  </div>
+               </div>
+            <% } %>
+            
+<%-  include ./partials/footer %>
