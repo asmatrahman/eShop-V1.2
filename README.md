@@ -3,11 +3,11 @@
   <img src="https://github.com/AsmatRahman/eShop/blob/main/public/img/logo.png" width="100"/>
 </div>
 <h1 align="center">Hi 👋, I'm Asmat Rahman</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A Passionate Frontend Developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=asmatrahman&label=Profile%20views&color=0e75b6&style=flat" alt="asmatrahman" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=asmatrahman" alt="asmatrahman" /></a> </p>
+<!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=asmatrahman" alt="asmatrahman" /></a> </p> -->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -19,6 +19,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=asmatrahman&show_icons=true&locale=en" alt="asmatrahman" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=asmatrahman&" alt="asmatrahman" /></p>
-<div>
-<img src=""/>
-</div>
